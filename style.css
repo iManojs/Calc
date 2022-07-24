@@ -1,0 +1,82 @@
+body {
+    font-size: 2.5vh;
+    top: 5%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#calculator {
+   
+    height: auto;
+    padding: 3vh;
+    border: 5px solid #fcfcfc;
+    border-radius: 35px;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    text-align:right;
+    font-size: 30px;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid #e68a00;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+#last_operation_history {
+    height: 5vh;
+    padding: 1vh;
+    font-size: 1.8vh;
+    text-align:right;
+    margin-top: auto;
+    padding-right: 1.5vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid #e68a00;
+}
+
+button {
+    width:10vh;
+    height: 10vh;
+    margin: 2px 2px 2px 2px;
+    font-weight:lighter;
+    font-size: 3vh;
+    color: white;
+    background-color: #64676cb2;
+    border-radius: 25%;
+    border: 2px solid #ffffff;
+    
+}
+
+
+
+button:hover {
+    background-color: #999999;
+}
+
+.operator {
+    background-color: #e3982e;
+}
+
+.operator:hover {
+    background-color: #ffd11a;
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 50px;
+}
+
+
